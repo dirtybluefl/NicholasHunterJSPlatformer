@@ -1,0 +1,36 @@
+.background    { background: url(../images/level1b.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: url(../images/RockBlock.jpg);   }
+.slime	     { background: rgb(0, 204, 0); }
+.platform   { background: url(../images/RockBlock.jpg);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url(../images/coin.gif); }
+.myLevels { background: url(../images/coin.gif); }
+.fast   { background: rgb(100, 100, 100); }
+.unfast   { background: ; }
+.lowGrav  { background: ; }
+.original { background: rgb(130, 100, 300); }
+.player { background: url(../images/Player.png); }
+.runLeft   { background: url(../images/PlayerLeft.png); }
+.runRight   { background: url(../images/PlayerRight.png); }
+.slow   { background: ;}
+.monster { background: url(../images/monster.png); }
+.moon { background: url(../images/moon.png); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
